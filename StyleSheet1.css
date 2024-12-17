@@ -8,14 +8,12 @@
     display: flex;
     flex-direction: column;
 }
-
 header, footer {
     background-color: #001f3f; /* Sötét kék háttér */
     color: #ffffff;
     text-align: center;
     padding: 1em;
 }
-
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3x3-as elrendezés */
@@ -25,7 +23,6 @@ header, footer {
     margin: auto; /* Középre igazítás */
     flex-grow: 1; /* Kitölti a maradék helyet */
 }
-
 .card {
     background-color: #004080; /* Sötét kék kártyák */
     color: #ffffff;
@@ -38,24 +35,20 @@ header, footer {
     flex-direction: column;
     align-items: center;
 }
-
     .card img {
         max-width: 100%;
         border-radius: 10px; /* Kép kerekítése */
     }
-
     .card h2 {
         margin: 0.5em 0 0.5em;
         border-radius: 10px; /* Címsor kerekítése */
         padding: 0.5em;
         background-color: #0059b3; /* Háttér színe */
     }
-
     .card p {
         flex-grow: 1;
         margin: 0 0 0.5em;
     }
-
 button {
     background-color: #0059b3; /* Gomb színe */
     color: #ffffff;
@@ -65,17 +58,14 @@ button {
     cursor: pointer;
     align-self: center;
 }
-
     button:hover {
         background-color: #0073e6; /* Hover hatás */
     }
-
 .divider {
     border: 0;
     border-top: 1px solid #ffffff; /* Fehér elválasztó vonal */
     margin: 1em 0;
 }
-
 @media (max-width: 600px) {
     .container {
         grid-template-columns: 1fr;
